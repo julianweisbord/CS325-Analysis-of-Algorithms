@@ -20,10 +20,6 @@ def stooge_sort(inp, i=0, j=None):
 
 
 def main():
-    # start_time = time.time()
-    # stooge_sort()
-    # execution_time = time.time() - start_time
-    # print execution_time
     inp = []
     list_count = 0
     with open("./data.txt", 'r') as fp:
