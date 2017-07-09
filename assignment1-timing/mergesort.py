@@ -22,7 +22,6 @@ def merge_sort(inp_list):
 
 def main():
     start_time = time.time()
-    print "time: ", start_time
     inp = random.sample(xrange(10000), 1000)
     size = len(inp)
 
