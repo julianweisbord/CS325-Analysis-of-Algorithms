@@ -1,10 +1,11 @@
 import time
 import random
-
+import sys
+sys.setrecursionlimit(50000)
 def main():
     start_time = time.time()
 
-    inp = random.sample(xrange(10000), 1000)
+    inp = random.sample(xrange(10000), 8000)
     size = len(inp)
 
     for i in range(1, size):

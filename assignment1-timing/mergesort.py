@@ -1,5 +1,7 @@
 import time
 import random
+import sys
+sys.setrecursionlimit(50000)
 
 def merge_lists(list_a, list_b):
     if not list_a:
